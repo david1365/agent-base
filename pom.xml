@@ -11,12 +11,18 @@
   </parent>
 
   <groupId>ir.daak</groupId>
-  <artifactId>agent-base</artifactId>
-  <version>${agent.base.version}</version>
+  <artifactId>base</artifactId>
+  <version>${base.version}</version>
 
-  <name>agent-base</name>
+  <name>base</name>
 
   <dependencies>
+    <!--log4-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-log4j2</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
