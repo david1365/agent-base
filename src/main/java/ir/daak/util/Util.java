@@ -4,6 +4,7 @@ import java.util.Base64;
 
 public class Util {
     public static final byte[] fromHexString(final String s) {
+        //TODO from davood akbari: use the Hex class supplied with the Apache commons-codec library
         byte[] arr = new byte[s.length()/2];
         for ( int start = 0; start < s.length(); start += 2 )
         {
