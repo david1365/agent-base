@@ -17,6 +17,12 @@
   <name>base</name>
 
   <dependencies>
+    <!--util-->
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+    </dependency>
+
     <!--log4-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
