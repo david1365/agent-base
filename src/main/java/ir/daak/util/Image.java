@@ -4,14 +4,14 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBuffer;
 
-public class ImageUtil {
+public class Image {
     public static BufferedImage cropImage(BufferedImage bufferedImage, int x, int y, int width, int height){
         BufferedImage croppedImage = bufferedImage.getSubimage(x, y, width, height);
         return croppedImage;
     }
 
-    private static BufferedImage resize(BufferedImage img, int width, int height) {
-        BufferedImage resizedImage = new BufferedImage(width, height, Image.SCALE_SMOOTH);
+    public static BufferedImage resize(BufferedImage img, int width, int height) {
+        BufferedImage resizedImage = new BufferedImage(width, height, java.awt.Image.SCALE_SMOOTH);
         Graphics2D g = resizedImage.createGraphics();
         g.drawImage(img, 0, 0, width, height, null);
         g.dispose();
