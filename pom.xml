@@ -12,7 +12,7 @@
 
   <groupId>ir.daak</groupId>
   <artifactId>base</artifactId>
-  <version>0.1.2-SNAPSHOT</version>
+  <version>${base.version}</version>
 
   <name>base</name>
 
