@@ -1,7 +1,6 @@
 package ir.daak.exception;
 
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class BaseException extends Exception {
     public BaseException() {
