@@ -10,14 +10,26 @@ public class BaseException extends Exception {
         super(message);
     }
 
-    public BaseException(Logger logger, String key, String description) {
-        super(key);
+    public BaseException(Logger logger, Throwable cause) {
+        super(cause);
 
-        logger.error(description);
+        logger.error(cause.getMessage(), cause);
     }
 
-    public BaseException(Logger logger, String key, String description, Throwable throwable) {
-        super(key);
+    public BaseException(Logger logger, String message, Throwable cause) {
+        super(message);
+
+        logger.error(cause.getMessage() , cause);
+    }
+
+    public BaseException(Logger logger, String message, String description) {
+        super(message);
+
+        logger.error(description, this);
+    }
+
+    public BaseException(Logger logger, String message, String description, Throwable throwable) {
+        super(message);
 
         logger.error(description, throwable);
     }
