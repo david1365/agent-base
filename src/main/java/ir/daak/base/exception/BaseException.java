@@ -1,4 +1,4 @@
-package ir.daak.exception;
+package ir.daak.base.exception;
 
 
 import lombok.extern.slf4j.Slf4j;

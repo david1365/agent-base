@@ -10,7 +10,6 @@
     <version>${agent.core.version}</version>
   </parent>
 
-  <groupId>ir.daak</groupId>
   <artifactId>base</artifactId>
   <version>${base.version}</version>
 

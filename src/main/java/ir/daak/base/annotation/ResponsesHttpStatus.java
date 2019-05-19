@@ -1,4 +1,4 @@
-package ir.daak.annotation;
+package ir.daak.base.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

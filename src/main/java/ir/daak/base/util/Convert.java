@@ -1,4 +1,4 @@
-package ir.daak.util;
+package ir.daak.base.util;
 
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;

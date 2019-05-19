@@ -1,4 +1,4 @@
-package ir.daak.util;
+package ir.daak.base.util;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
