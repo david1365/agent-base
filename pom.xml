@@ -4,22 +4,22 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>ir.daak</groupId>
-    <artifactId>agent-core</artifactId>
-    <version>${agent.core.version}</version>
-  </parent>
-
+  <groupId>ir.daak</groupId>
   <artifactId>base</artifactId>
-  <version>${base.version}</version>
+  <version>1398.2.29-SNAPSHOT</version>
 
   <name>base</name>
+
+  <properties>
+     <spring.version>2.1.2.RELEASE</spring.version>
+  </properties>
 
   <dependencies>
     <!--springframework-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
+      <version>${spring.version}</version>
       <exclusions>
         <exclusion>
           <groupId>org.springframework.boot</groupId>
@@ -28,27 +28,31 @@
       </exclusions>
     </dependency>
 
-
     <!--util-->
     <dependency>
       <groupId>commons-codec</groupId>
       <artifactId>commons-codec</artifactId>
+      <version>1.12</version>
     </dependency>
 
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
+      <version>1.18.8</version>
+      <scope>provided</scope>
     </dependency>
 
     <!--log4-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-log4j2</artifactId>
+      <version>${spring.version}</version>
     </dependency>
 
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
