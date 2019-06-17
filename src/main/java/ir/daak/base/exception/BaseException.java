@@ -1,5 +1,11 @@
 package ir.daak.base.exception;
 
+/**
+ * @author Davood Akbari - 1398
+ * daak1365@gmail.com
+ * daak1365@yahoo.com
+ * 09125188694
+ */
 
 import lombok.extern.slf4j.Slf4j;
 

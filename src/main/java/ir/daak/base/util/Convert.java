@@ -1,5 +1,12 @@
 package ir.daak.base.util;
 
+/**
+ * @author Davood Akbari - 1398
+ * daak1365@gmail.com
+ * daak1365@yahoo.com
+ * 09125188694
+ */
+
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;
 

@@ -1,5 +1,12 @@
 package ir.daak.base.util;
 
+/**
+ * @author Davood Akbari - 1398
+ * daak1365@gmail.com
+ * daak1365@yahoo.com
+ * 09125188694
+ */
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBuffer;
